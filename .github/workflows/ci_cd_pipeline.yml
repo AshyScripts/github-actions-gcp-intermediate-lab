@@ -11,7 +11,7 @@ on:
 
 env:
   REGION: us-east4
-  REPOSITORY_NAME: mlops-intermediate-lab
+  REPOSITORY_NAME: my-repo
 
 jobs:
   build_test_and_deploy:
