@@ -3,6 +3,16 @@
 This repository is a hands-on lab designed to teach you how to set up a CI/CD pipeline for a machine learning project using GitHub Actions and Google Cloud Platform (GCP). You'll learn how to train a model, version it, and deploy it using Docker containers on GCP.
 
 ---
+## Learning Objectives
+By completing this lab, you will:
+- Set up a GitHub repository with automated CI/CD using GitHub Actions for an ML project.
+- Configure and use Google Cloud Platform (GCP) services for ML operations, including Google Cloud Storage (GCS) and Artifact Registry.
+- Develop a GitHub Actions workflow that automates the entire process from testing to deploying a containerized ML model.
+- Learn how to use MagicMock and patch for effectively testing functions that interact with GCP services.
+
+
+---
+
 ### Step 1: Fork and Clone the Repository
 First, you need to clone this repository onto your local machine. Then, Create a new repository in your GitHub account. Do not initialize it with a README, .gitignore, or license. Then you need to update the remote URL of your local repository to point to your new GitHub repository:
 
